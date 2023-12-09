@@ -4,6 +4,7 @@
     border: 0;
     outline: none;
     box-sizing: border-box;
+    -webkit-tap-highlight-color: transparent;
 }
 
 body{
@@ -180,5 +181,11 @@ body{
     to {
         scale: 1;
         opacity: 1;
+    }
+}
+
+@media (width < 425px) {
+    .container {
+        width: 90%;
     }
 }
